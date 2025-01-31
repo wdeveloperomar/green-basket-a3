@@ -3,3 +3,7 @@
 body {
     font-family: "Sora", serif;
 }
+
+.header-bg {
+    background: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);
+}
