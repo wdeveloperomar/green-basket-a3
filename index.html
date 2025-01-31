@@ -7,8 +7,45 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./c2-assets/favicon.png" type="image/x-icon">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/daf44b3af6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="lg:border-b-0 border-b-[0.5px] border-[#179800]">
+            <div class="container mx-auto px-4 lg:py-6 py-5 flex justify-between items-center">
+                <div>
+                    <a class="lg:block hidden" href=""><img src="./c2-assets/logo-header.png" alt=""></a>
+                    <a class="lg:hidden block" href=""><img src="./c2-assets/logo-2.svg" alt=""></a>
+                </div>
+
+                <div class="space-x-8 text-[#111] text-[1.25rem] font-normal lg:block hidden">
+                    <a class="hover:underline" href="">Products</a>
+                    <a class="hover:underline" href="">Services</a>
+                    <a class="hover:underline" href=""> Contact us</a>
+                </div>
+
+                <div class="lg:flex gap-6 items-center hidden">
+                    <div class="flex gap-6 ">
+                        <button class="outline-none cursor-pointer"><img src="./c2-assets/search.svg" alt=""></i></button>
+                        <button class="outline-none cursor-pointer"><img src="./c2-assets/cart.svg" alt=""></button>
+                    </div>
+                    <div class="space-x-3 text-[#111] text-[1.25rem] font-normal">
+                        <a class="px-[30px] py-[10px] rounded-[8px] border-[1px] border-[#179800]" href="">Login</a>
+                        <a class="px-[30px] py-[10px] rounded-[8px] bg-[#179800] text-[#FFF]" href="">Register</a>
+                    </div>
+                </div>
+
+                <div class="lg:hidden"> 
+                    <button class="cursor-pointer hover:scale-[1.1] duration-[0.5s]"><img src="./c2-assets/bars-3.svg" alt=""></button>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
 </body>
 </html>
